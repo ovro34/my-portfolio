@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 600px;
+    background: white;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007BFF;
+}
+h1 {
+    font-size: 28px;
+    margin: 10px 0 5px;
+}
+h2 {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0 15px;
+}
+ul {
+    text-align: left;
+    display: inline-block;
+    padding-left: 20px;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
